@@ -74,3 +74,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# 编译文件
+ADCBurst.uvgui.zhou_
+ADCBurst.uvgui.zhou_.bak
+*.uvopt
+*.ini
+*.dep
+*.fop
+*.cfg
+*.bak

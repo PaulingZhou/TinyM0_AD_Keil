@@ -1,0 +1,23 @@
+*** Creating Trace Output File '.\DebugInFlash\ADCBurst.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\debuginflash\core_cm0.o"'
+### List of Objects: adding '".\debuginflash\system_lpc11xx.o"'
+### List of Objects: adding '".\debuginflash\startup_lpc11xx.o"'
+### List of Objects: adding '".\debuginflash\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\debuginflash\core_cm0.o" ".\debuginflash\system_lpc11xx.o" ".\debuginflash\startup_lpc11xx.o" ".\debuginflash\main.o" 
+--strict --scatter ".\DebugInFlash\ADCBurst.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DebugInFlash\ADCBurst.map" -o .\DebugInFlash\ADCBurst.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\DebugInFlash\ADCBurst.axf'
+### ADS-LD Command File: '.\DebugInFlash\ADCBurst.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\DebugInFlash\ADCBurst.lnp', Handle=0x00000464
+### Writing '.lnp' file
+### ADS-LD Command file '.\DebugInFlash\ADCBurst.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
